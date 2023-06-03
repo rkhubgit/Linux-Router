@@ -1,17 +1,16 @@
-import React from 'react'
-import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AuthContext } from './Component/Context/AuthContext'
-import { Header } from './Component/Header';
-import { Navigator } from './Component/Navigator/Navigator';
-import { Home } from './Component/Page/Home';
-import { Login } from './Component/Page/Login';
-import { MyOrders } from './Component/Page/MyOrder';
-import { PageNotFound } from './Component/Page/PageNotFound';
-import { Product } from './Component/Page/Product';
-import { Profile } from './Component/Page/Profile';
-import { Signup } from './Component/Page/Signup';
-import { User } from './Component/Page/User'
+// import './App.css';
+import { AuthContext } from './Context/AuthContext';
+import { Header } from './Header';
+import { Navigator } from './Navigator/Navigator';
+import { Home } from './Page/Home';
+import { Login } from './Page/Login';
+import { MyOrders } from './Page/MyOrder';
+import { PageNotFound } from './Page/PageNotFound';
+import { Product } from './Page/Product';
+import { Profile } from './Page/Profile';
+import { Signup } from './Page/Signup';
+import { User } from './Page/User'
 
 function App() {
   return (
